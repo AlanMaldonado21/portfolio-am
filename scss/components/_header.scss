@@ -1,0 +1,24 @@
+@import '../colors';
+
+.from-to{
+    border-bottom: .1px solid rgb(54, 54, 54);
+    padding: 10px;
+    p{
+        
+        font-size: 12px;
+        color: $color-white;
+        text-align: center;
+    }
+   
+}
+
+// REGLA GENERAL BODY 
+ 
+*{
+    background-color: $color-black;
+    font-family: $font;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
